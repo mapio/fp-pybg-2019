@@ -1,0 +1,62 @@
+site_name: Python per l'amministrazione di sistema e lo sviluppo web
+
+site_author: Massimo Santini
+
+copyright: "&copy; Massimo Santini, 2019"
+
+theme: 
+  name: material
+  logo:
+    icon: 'whatshot'
+  palette:
+    primary: 'blue grey'
+  font:
+    text: 'Ubuntu'
+    code: 'Ubuntu mono'
+  language: 'it'  
+  use_directory_urls: true
+
+repo_name: 'mapio/fp-pybg-2019'
+repo_url: 'https://github.com/mapio/fp-pybg-2019'
+edit_uri: ''
+
+extra:
+  search:
+    language: 'it'
+  social:
+  - type: 'github'
+    link: 'https://github.com/mapio'
+  - type: 'twitter'
+    link: 'https://twitter.com/mapio'
+  - type: 'linkedin'
+    link: 'https://www.linkedin.com/in/massimosantini/'
+
+google_analytics: ['UA-377250-26', 'auto']
+
+markdown_extensions: #  https://python-markdown.github.io/extensions/
+  - toc:
+        permalink: "#"
+        toc_depth: 2-6
+  - admonition        
+  - pymdownx.details
+  - pymdownx.extra
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+
+extra_css: 
+  - css/extra.css
+  - https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js
+  - js/extra.js
+
+nav:
+  - index.md
+  - articolazione.md
+  - prerequisiti.md
+  - software.md
+  - Moduli:
+    - moduli/intro.md
+    - moduli/sysadm.md
+    - moduli/webdev.md
