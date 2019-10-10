@@ -5,8 +5,8 @@
 Questo modulo si svolge il 30 ottobre ed ha per obiettivo illustrare alcune
 delle parti della libreria standard di Python e alcune librerie esterne
 particolarmente utili nell'ambito dell'amministrazione di sistema e dei compiti
-collegati. Per quanto concerne la libreria standard verranno mostrati alcuni
-esempi basati sui seguenti *moduli* della libreria standard:
+collegati. Per quanto concerne la *libreria standard* verranno mostrati alcuni
+esempi basati sui seguenti moduli:
 
 * uso del filesystem e accesso ai servizi del sistema operativo:
   [File and Directory Access](https://docs.python.org/3/library/filesys.html),
@@ -18,7 +18,7 @@ esempi basati sui seguenti *moduli* della libreria standard:
 * gestione del software Python:
   [Software Packaging and Distribution](https://docs.python.org/3/library/distribution.html).
 
-Per quanto concerne le librerie ausiliarie saranno accennate:
+Per quanto concerne le *librerie esterne* saranno accennate:
 
 * [Fabric](http://www.fabfile.org/) e 
 * [Paramiko](http://www.paramiko.org/).
