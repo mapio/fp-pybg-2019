@@ -9,11 +9,11 @@ centrata la presentazione è il *micro-framework*
 accessorie che ne completano le funzionalità. Tra l'ampia offerta saranno
 mostrati esempi di uso di:
 
--   per lo sviluppo di applicazioni di gestione dei dati, di tipo CRUD:
-    [Flask-Admin](https://flask-admin.readthedocs.io/en/latest/),
-    [SQLAlchemy](https://www.sqlalchemy.org/);
--   per gli aspetti di sicurezza e gestione utenti:
-    [Flask-Security](https://pythonhosted.org/Flask-Security/).
+* per lo sviluppo di applicazioni di gestione dei dati, di tipo CRUD:
+  [Flask-Admin](https://flask-admin.readthedocs.io/),
+  [SQLAlchemy](https://www.sqlalchemy.org/);
+* per gli aspetti di sicurezza e gestione utenti:
+  [Flask-Security](https://pythonhosted.org/Flask-Security/).
 
 Come nel caso del modulo orientato all'amministrazione di sistema, dati i
 vincoli di tempo, si tratterà di una antologia di esempi e di suggerimenti d'uso

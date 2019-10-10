@@ -8,21 +8,18 @@ particolarmente utili nell'ambito dell'amministrazione di sistema e dei compiti
 collegati. Per quanto concerne la libreria standard verranno mostrati alcuni
 esempi basati sui seguenti *moduli* della libreria standard:
 
--   uso del filesystem e accesso ai servizi del sistema operativo: [File
-    and Directory
-    Access](https://docs.python.org/3/library/filesys.html), [Generic
-    Operating System
-    Services](https://docs.python.org/3/library/allos.html);
--   aspetti di rete: [Networking and Interprocess
-    Communication](https://docs.python.org/3/library/ipc.html),
-    [Internet Data
-    Handling](https://docs.python.org/3/library/netdata.html), [Internet
-    Protocols and
-    Support](https://docs.python.org/3/library/internet.html);
--   gestione del software Python: [Software Packaging and
-    Distribution](https://docs.python.org/3/library/distribution.html).
+* uso del filesystem e accesso ai servizi del sistema operativo:
+  [File and Directory Access](https://docs.python.org/3/library/filesys.html),
+  [Generic Operating System Services](https://docs.python.org/3/library/allos.html);
+* aspetti di rete:
+  [Networking and Interprocess Communication](https://docs.python.org/3/library/ipc.html),
+  [Internet Data Handling](https://docs.python.org/3/library/netdata.html), 
+  [Internet Protocols and Support](https://docs.python.org/3/library/internet.html);
+* gestione del software Python:
+  [Software Packaging and Distribution](https://docs.python.org/3/library/distribution.html).
 
-Per quanto concerne le librerie ausiliarie saranno descritte:
-[Fabric](http://www.fabfile.org/) e
-[Paramiko](http://www.paramiko.org/).
+Per quanto concerne le librerie ausiliarie saranno accennate:
+
+* [Fabric](http://www.fabfile.org/) e 
+* [Paramiko](http://www.paramiko.org/).
 
