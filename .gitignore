@@ -1,3 +1,5 @@
 .envrc
 sito/site
 .ipynb_checkpoints/
+chinook.db
+test.gz
