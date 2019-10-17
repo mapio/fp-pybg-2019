@@ -47,7 +47,7 @@ ecosistema, saranno mostrate alcuni moduli della *libreria standard* come:
 
 * *web-scraping*:
   [Requests](http://python-requests.org/),
-  [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/);
+  [lxml](https://lxml.de/);
 * *data analysis and visualization*:
   [Pandas](https://pandas.pydata.org/),
   [Matplotlib](https://matplotlib.org/), 
