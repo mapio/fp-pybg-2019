@@ -2,7 +2,7 @@ FROM python:3.8-alpine
 
 RUN apk add --no-cache --update openssh libzmq sudo rsync; \
     apk add --no-cache --virtual .build-deps gcc musl-dev zeromq-dev openssl-dev libffi-dev make; \
-    pip3 install jupyter fabric; \
+    pip3 install jupyter fabric sshtunnel; \
     apk del .build-deps; \
     rm  -rf /tmp/* /var/cache/apk/*
 
