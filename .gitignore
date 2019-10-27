@@ -1,7 +1,12 @@
 .envrc
+__pycache__/
 sito/site
 .ipynb_checkpoints/
-chinook.db
-test.gz
-emails.txt
-zingarelli.txt
+moduli/python/*.py
+moduli/python/emails.txt
+moduli/python/zingarelli.txt
+moduli/python/chinook.db
+moduli/webdev/*.py
+moduli/webdev/tplapp/
+moduli/webdev/flaskr/
+moduli/webdev/wait-for
