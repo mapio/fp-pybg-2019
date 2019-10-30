@@ -1,4 +1,4 @@
-import os
+from pathlib import Path
 
 from flask import Flask
 
@@ -8,7 +8,7 @@ def create_app(test_config = None):
     app = Flask(__name__, instance_relative_config = True)
     app.config.from_mapping(
         SECRET_KEY = 'dev',
-        SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(app.instance_path, 'flaskr-revisited.sqlite'),
+        SQLALCHEMY_DATABASE_URI = 'sqlite:///' + str(Path(app.instance_path) / 'flaskr-revisited.sqlite'),
         SQLALCHEMY_TRACK_MODIFICATIONS = False
     )
 
@@ -18,10 +18,7 @@ def create_app(test_config = None):
         app.config.update(test_config)
 
     # ensure the instance folder exists
-    try:
-        os.makedirs(app.instance_path)
-    except OSError:
-        pass
+    Path(app.instance_path).mkdir(exist_ok = True)
 
     init_admin(app)
 
