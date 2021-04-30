@@ -74,7 +74,7 @@ testpath==0.4.2
 tornado==6.0.3
 tqdm==4.36.1
 traitlets==4.3.3
-urllib3==1.25.6
+urllib3==1.25.8
 voila==0.1.13
 voila-gridstack==0.0.6
 voila-vuetify==0.1.1
